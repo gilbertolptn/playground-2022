@@ -27,8 +27,7 @@ public class DiferencaAnos {
     }
 
     public static int pedirAno(){
-        int ano = new Scanner(System.in).nextInt(); //Precisaria ser "closed" ao final na realidade
-        return ano;
+        return new Scanner(System.in).nextInt(); //Precisaria ser "closed" ao final na realidade
     }
 
     public static int diferencaAnos(int anoInicio, int anoFim){
