@@ -16,7 +16,7 @@ public class DiferencaAnos {
         int anoFim = pedirAno();
 
         int diferenca = diferencaAnos(anoInicio, anoFim);
-//        System.out.printf("Diferença entre %d e %d = %d anos", anoInicio, anoFim, diferenca);
+        System.out.printf("Diferença entre %d e %d = %d anos", anoInicio, anoFim, diferenca);
 //        String textoFormatado = "Diferença entre " + anoInicio + " e " + anoFim + " = " + diferenca +" anos";
         String textoFormatado = String.format("Diferença entre %d e %d = %d anos", anoInicio, anoFim, diferenca);
         imprimir(textoFormatado);
