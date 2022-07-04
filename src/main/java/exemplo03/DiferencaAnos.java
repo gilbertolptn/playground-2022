@@ -31,8 +31,6 @@ public class DiferencaAnos {
     }
 
     public static int diferencaAnos(int anoInicio, int anoFim){
-        //int diferenca = anoFim-anoInicio;
-        //return diferenca;
         return anoFim-anoInicio;
     }
 
